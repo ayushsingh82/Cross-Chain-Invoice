@@ -21,6 +21,10 @@ const Navbar = () => {
       name: "Create an Invoice",
       href: "/create-invoice",
     },
+    {
+      name:"Swap",
+      href:"/swap.tsx"
+    }
   ];
 
   const supportLinks = [
