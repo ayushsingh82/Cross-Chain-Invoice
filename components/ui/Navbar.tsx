@@ -23,18 +23,18 @@ const Navbar = () => {
     },
     {
       name:"Swap",
-      href:"/swap.tsx"
+      href:"/Swap.tsx"
     }
   ];
 
   const supportLinks = [
     {
       name: "Github Discussions",
-      href: "https://github.com/orgs/RequestNetwork/discussions",
+      href: "",
     },
     {
       name: "Discord",
-      href: "https://discord.com/channels/468974345222619136/1103420140181274645",
+      href: "",
     },
   ];
 
@@ -43,13 +43,15 @@ const Navbar = () => {
       <a
         target="_blank"
         rel="noreferrer noopener"
-        href="https://request.network/"
+        href=""
+        className="text-white font-medium text-2xl"
       >
-        <img
+        {/* <img
           src="assets/logo.svg"
           alt="Request Network Logo"
           className="w-[120px]"
-        />
+        /> */}
+        InvoBaseX
       </a>
       <ul className="h-full flex gap-[60px]">
         {links.map((link, index) => (
@@ -72,7 +74,7 @@ const Navbar = () => {
           <a
             target="_blank"
             rel="noreferrer noopener"
-            href="https://docs.request.network/building-blocks/templates"
+            href=""
             className="flex items-center gap-[5px] bg-transparent text-green font-medium text-[16px]"
           >
             Integrate in your app
