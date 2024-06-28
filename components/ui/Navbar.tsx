@@ -23,7 +23,7 @@ const Navbar = () => {
     },
     {
       name:"Swap",
-      href:"/Swap.tsx"
+      href:"/Swap"
     }
   ];
 
